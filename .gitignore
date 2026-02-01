@@ -1,0 +1,5 @@
+node_modules/
+.env
+mcp_config.json.bak
+mcp_config.json.tmp
+*.log

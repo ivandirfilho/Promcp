@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "is-odd": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\Windows\\Desktop\\MCP - Manager - pro\\mcp-servers\\is-odd\\node_modules\\is-odd\\index.js"
+      ],
+      "env": {}
+    },
+    "test-server-verify": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\Windows\\Desktop\\MCP - Manager - pro\\mcp-servers\\test-server-verify\\node_modules\\is-even\\index.js"
+      ],
+      "env": {}
+    }
+  }
+}
