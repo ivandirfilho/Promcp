@@ -1,17 +1,19 @@
 {
-  "name": "mcp-manager-engine",
+  "name": "mcp---manager---pro",
   "version": "1.0.0",
-  "description": "Local Node.js Engine for MCP Manager Pro",
-  "main": "src/index.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "test": "echo \"No tests specified\" && exit 0"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.0",
+    "@supabase/supabase-js": "^2.93.3",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.0"
   }
 }
