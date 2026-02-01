@@ -19,8 +19,8 @@ async function handleNewInstallation(payload) {
 
     const id = row.id;
     // Extract fields from payload (snake_case from DB)
-    const packageName = row.package_name;
-    const serverId = row.server_id;
+    const packageName = row.mcp_server_name; // Mapped from DB Column
+    const serverId = row.catalog_id;         // Mapped from DB Column
     const userConfigPath = row.user_config_path || DEFAULT_CONFIG_PATH;
 
     logger.info(`Received install request for: ${packageName} (ServerID: ${serverId})`);
