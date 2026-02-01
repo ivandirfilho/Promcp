@@ -1,0 +1,17 @@
+{
+  "name": "mcp-manager-pro-backend",
+  "version": "1.0.0",
+  "description": "Backend engine for MCP Manager Pro",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
